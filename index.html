@@ -18,43 +18,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="home">
     <header>
         <nav class="menu">
             <div class="menu-left">
-                <div class="link menu-home">
-                    <svg width="20" height="17" viewBox="0 0 56 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22.4 48V31.0588H33.6V48H47.6V25.4118H56L28 0L0 25.4118H8.4V48H22.4Z" fill="#FAF8F5" />
-                    </svg>
-                    <a href="#home">Home</a>
-                </div>
-
+                <a href="#home" class="link menu-home">Home</a>
                 <a href="#contato" class="link menu-contato">Contato</a>
             </div>
             <div class="menu-center">
-                <h5 class="menu-logo">Switch <span class="gradient-purple"> Games </span>
-                </h5>
+                <h1 class="menu-logo"> Switch <span class="logo-color gradient-purple"> Games </span>
+                </h1>
             </div>
             <div class="menu-right">
-                <div class="link menu-login">
-                    <svg width="20" height="20" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M31.5 0C14.112 0 0 14.112 0 31.5C0 48.888 14.112 63 31.5 63C48.888 63 63 48.888 63 31.5C63 14.112 48.888 0 31.5 0ZM31.5 9.45C36.729 9.45 40.95 13.671 40.95 18.9C40.95 24.129 36.729 28.35 31.5 28.35C26.271 28.35 22.05 24.129 22.05 18.9C22.05 13.671 26.271 9.45 31.5 9.45ZM31.5 54.18C23.625 54.18 16.6635 50.148 12.6 44.037C12.6945 37.7685 25.2 34.335 31.5 34.335C37.7685 34.335 50.3055 37.7685 50.4 44.037C46.3365 50.148 39.375 54.18 31.5 54.18Z"
-                            fill="#FAF8F5" />
-                    </svg>
-                    <a href="#">Login</a>
-                </div>
-                <div class="link menu-carrinho">
-                    <svg width="20" height="20" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M15.3 40.8C12.495 40.8 10.2255 43.095 10.2255 45.9C10.2255 48.705 12.495 51 15.3 51C18.105 51 20.4 48.705 20.4 45.9C20.4 43.095 18.105 40.8 15.3 40.8ZM0 0V5.1H5.1L14.28 24.4545L10.8375 30.702C10.4295 31.416 10.2 32.2575 10.2 33.15C10.2 35.955 12.495 38.25 15.3 38.25H45.9V33.15H16.371C16.014 33.15 15.7335 32.8695 15.7335 32.5125L15.81 32.2065L18.105 28.05H37.1025C39.015 28.05 40.698 27.0045 41.565 25.4235L50.694 8.874C50.898 8.517 51 8.0835 51 7.65C51 6.2475 49.8525 5.1 48.45 5.1H10.7355L8.3385 0H0ZM40.8 40.8C37.995 40.8 35.7255 43.095 35.7255 45.9C35.7255 48.705 37.995 51 40.8 51C43.605 51 45.9 48.705 45.9 45.9C45.9 43.095 43.605 40.8 40.8 40.8Z"
-                            fill="#FAF8F5" />
-                    </svg>
-                    <a href="#">Carrinho</a>
-                </div>
+                <a href="#" class="link">Login</a>
+                <a href="#" class="link">Carrinho</a>
             </div>
         </nav>
     </header>
+    <main>
+        <section class="carousel border">
+            <div class="carousel-item">
+                <img src="img/bg-spider.png" alt="Spider Image">
+                <div class="item-01">
+                    <h5 class="subtitle">Lançamento</h5>
+                    <h4 class="title">Spider-Man: <span>Miles Morales</span></h4>
+                    <p>Spider-Man: Miles Morales é um jogo eletrônico de ação-aventura desenvolvido pela Insomniac Games
+                        e publicado pela Sony Interactive Entertainment para o PlayStation 4 e PlayStation 5.</p>
+
+                    <div class="price">
+                        <h3 class="price">R$ 199.99</h3>
+                        <img src="img/Sony-logo.png" alt="Sony Logo">
+                    </div>
+
+                    <button class="btn">
+                        <span><a href="#">Compre Agora</a></span>
+                    </button>
+                </div>
+                <div class="item-02">
+                    <img src="img/logoSpider.png" alt="Spider Man Logo">
+                    <img src="img/Spider.png" alt="Spider Man" class="spider-img">
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

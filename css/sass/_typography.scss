@@ -8,16 +8,10 @@ a {
 }
 
 html {
-  scroll-behavior: smooth;
-}
-
-.menu {
-    font-size: 18px;
-    font-weight: 500;
+    scroll-behavior: smooth;
 }
 
 .link {
-    border: 1px solid red;
     padding: 8px 24px;
 
     display: inline-block;
@@ -25,6 +19,7 @@ html {
     transition: .8s ease;
 
     position: relative;
+    font-weight: 500;
 
     &::after {
         content: '';
@@ -41,23 +36,42 @@ html {
         transition: all .8s ease-in-out 0s;
 
         background-color: $purple-dark;
+        
     }
 
     &:hover {
+        color: $blue-light;
         &::after {
             width: 70%;
         }
     }
 }
 
-.menu-logo {
-
+p {
+    font-size: 10px;
 }
 
-.gradient-purple {
-    background: $purple-gradient;
-    background-clip: text;
+h1 {
+    font-size: 18px;
+}
 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+h2 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px; 
+}
+
+h6 {
+    font-size: 12px;
 }
