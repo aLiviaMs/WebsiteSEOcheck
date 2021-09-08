@@ -1,0 +1,63 @@
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Ubuntu', sans-serif;
+    color: $white;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.menu {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.link {
+    border: 1px solid red;
+    padding: 8px 24px;
+
+    display: inline-block;
+
+    transition: .8s ease;
+
+    position: relative;
+
+    &::after {
+        content: '';
+        display: block;
+
+        position: absolute;
+        top: 100%;
+        left: 50%;
+
+        width: 0%;
+        height: 2px;
+
+        transform: translate(-50%, -50%);
+        transition: all .8s ease-in-out 0s;
+
+        background-color: $purple-dark;
+    }
+
+    &:hover {
+        &::after {
+            width: 70%;
+        }
+    }
+}
+
+.menu-logo {
+
+}
+
+.gradient-purple {
+    background: $purple-gradient;
+    background-clip: text;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
