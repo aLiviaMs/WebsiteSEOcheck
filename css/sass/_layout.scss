@@ -19,7 +19,6 @@
     line-height: 21px;
 
     letter-spacing: 0.365em;
-    text-transform: uppercase;
 }
 
 .logo-color {
@@ -38,17 +37,22 @@
     max-width: 100%;
 
     margin: 0 auto;
-    padding-top: 240px;
+    padding-top: 140px;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .carousel-item {
+    display: flex;
     max-width: 925px;
-    border: 1px solid red;
+}
+
+.bg-carousel {
+    position: absolute;
+    z-index: -1;
 }
 
 .btn{
@@ -131,5 +135,78 @@
 }
 
 .spider-img {
-    width: 50%;
+    width: 100%;
+}
+
+.item-01 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    padding: 48px;
+
+    width: 100%;
+}
+
+.subtitle {
+    margin-bottom: 8px;
+
+    color: $gray-6;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 64px 0 42px 0;
+}
+
+.text-item {
+    line-height: 12px;
+}
+
+.item-02 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    padding: 32px;
+}
+
+.favorite-game {
+    max-width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.game-item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+
+    width: 100%;
+}
+
+.bg-game {
+    position: absolute;
+    z-index: -1;
+}
+
+.btn-favorite {
+    border: 0;
+
+    margin-top: 102px;
+    display: inline-flex;
+    position: relative;
+
+    background: none;
+
+    padding: 12px;
 }

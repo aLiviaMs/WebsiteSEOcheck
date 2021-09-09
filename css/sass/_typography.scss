@@ -53,25 +53,48 @@ p {
 
 h1 {
     font-size: 18px;
+
+    text-transform: uppercase;
 }
 
 h2 {
     font-size: 48px;
     font-weight: 400;
+
+    text-transform: uppercase;
 }
 
 h3 {
     font-size: 36px;
+
+    text-transform: uppercase;
 }
 
 h4 {
     font-size: 24px;
+
+    text-transform: uppercase;
 }
 
 h5 {
     font-size: 18px; 
+
+    text-transform: uppercase;
 }
 
 h6 {
     font-size: 12px;
+
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+.risco {
+    text-decoration: line-through
 }
