@@ -276,7 +276,6 @@
     max-width: 1200px;
     margin: 0 auto;
 
-    margin-left: 50px;
 }
 
 .title {
@@ -313,16 +312,6 @@
     align-items: flex-start;
 
     margin-right: 10%;
-}
-
-.item-center {
-    p {
-        margin-left: 30px;
-        font-weight: 700;
-        font-size: 48px;
-
-        color: $purple;
-    }
 }
 
 .item-right {

@@ -1028,7 +1028,6 @@ body {
           flex-direction: row;
   max-width: 1200px;
   margin: 0 auto;
-  margin-left: 50px;
 }
 
 .title {
@@ -1084,13 +1083,6 @@ body {
       -ms-flex-align: start;
           align-items: flex-start;
   margin-right: 10%;
-}
-
-.item-center p {
-  margin-left: 30px;
-  font-weight: 700;
-  font-size: 48px;
-  color: #9D3DD8;
 }
 
 .item-right {
