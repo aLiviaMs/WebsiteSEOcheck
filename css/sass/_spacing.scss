@@ -505,3 +505,10 @@ $gap-10: 240px;
   padding-top: $gap-9 !important;
   padding-bottom: $gap-9 !important;
 }
+
+.padding-margin {
+  max-width: 100%;
+
+  margin: 0 auto;
+  padding-top: 140px;
+}
