@@ -61,6 +61,11 @@ $mob-break2: 325px;
        display: none;
     }
 }
+@media(max-width: 720px) {
+    #homepage {
+        display: none;
+     }
+}
 
 @media(max-width: $mob-break) {
     .menu {    

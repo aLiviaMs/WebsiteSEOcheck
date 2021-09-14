@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="LOJA DE JOGOS - Compre seus jogos digitais. Games para as suas plataformas preferidas: Playstation, Nintendo Switch, Xbox e pc/computadores.">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
     <title>Switch Games - Loja de jogos digitais - Compra de Games</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,16 +23,16 @@
     <header>
         <nav class="menu">
             <div class="menu-left">
-                <a href="#home" class="link menu-home">Home</a>
+                <a href="#home" class="link menu-home" id="homepage">Home</a>
                 <a href="./pages/login.html" class="link">Login</a>
             </div>
             <div class="menu-center">
                 <h1> Switch <span class="logo-color gradient-purple"> Games </span>
                 </h1>
             </div>
-            <div class="menu-right">
+            <div class="menu-right homepage">
                 <a href="./pages/carrinho.html" class="link">Carrinho</a>
-                <a href="#contato" class="link menu-contato">Contato</a>
+                <a href="#contato" class="link menu-contato" id="homepage">Contato</a>
             </div>
         </nav>
     </header>
@@ -61,8 +62,65 @@
                 <img src="./img/Spider.png" alt="Spider-Man">
             </div>
         </figure>
+        <figure class="container">
+            <img src="./img/bg-spider.png" alt="Background spider-man">
+            <div class="item-left">
+                <h5 id="subtitle" class="mb-1">Lançamento</h5>
+                <h4>Spider-Man: <span>Miles Morales</span></h4>
+                <p class="mt-2" id="description">Na mais nova aventura do universo de Marvel's Spider-Man, o adolescente
+                    Miles
+                    Morales
+                    está se
+                    adaptando a um novo lar enquanto segue os passos de seu mentor, Peter Parker, como novo Spider-Man.
+                    Mas quando uma violenta disputa de forças ameaça destruir sua vizinhança, o aspirante a herói
+                    percebe que com grandes poderes também vêm grandes responsabilidades. Para salvar a Nova York da
+                    Marvel, Miles deve reconhecer e assumir o título de Spider-Man.
+                </p>
+                <div id="price">
+                    <p>R$199.99</p>
+                </div>
+                <button class="btn">
+                    <a href="#">COMPRAR AGORA</a>
+                </button>
+            </div>
+            <div class="item-right">
+                <img src="./img/Spider.png" alt="Spider-Man">
+            </div>
+        </figure>
     </main>
-    <footer id="contato"></footer>
+    <footer class="footer-informations" id="contato">
+        <div class="footer-left">
+            <img src="./img/logo.png" alt="SwitchGames Logo">
+        </div>
+        <ul class="footer-right">
+            <li>
+                <h2>Contatos</h2>
+
+                <ul class="box">
+                    <li>games@switchgames.com</li>
+                    <li>adm@switchgames.com</li>
+                    <li>(11)996095019</li>
+                    <li>(11)237587178</li>
+                </ul>
+            </li>
+            <li>
+                <h2>Endereço</h2>
+
+                <ul class="box">
+                    <li>Rua das borboletas, 246</li>
+                    <li>Vila João Batista</li>
+                    <li>São Paulo, São Paulo</li>
+                    <li>Brasil</li>
+                </ul>
+            </li>
+        </ul>
+        <div class="socials">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-youtube"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+        </div>
+    </footer>
 </body>
 
 </html>
