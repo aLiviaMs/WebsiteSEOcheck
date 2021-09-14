@@ -1,0 +1,86 @@
+
+        <section class="favorite-game">
+            <div class="game-item mr-2">
+                <figure class="bg-game"><img src="img/cyberpunk-bg.png" alt="CyberPunk2077 Arte"></figure>
+                <div class="item-01">
+                    <h5>CyberPunk2077</h5>
+                    <h6>Jogo de RPG/FPS</h6>
+                    <div class="price">
+                        <strong>
+                            <h5>R$ 99.99</h5>
+                        </strong>
+                        <h5 class="risco ml-2">R$ 199.99</h5>
+                    </div>
+                </div>
+                <div class="item-02">
+                    <button class="btn-favorite mr-3">
+                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            id="favorite-btn">
+                            <path
+                                d="M10 18.35L8.55 17.03C3.4 12.36 0 9.28 0 5.5C0 2.42 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.09C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.42 20 5.5C20 9.28 16.6 12.36 11.45 17.04L10 18.35Z"
+                                fill="#FAF8F5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="game-item">
+                <figure class="bg-game"><img src="img/rd2-bg.png" alt="Read Dead Redemption 2 Arte"></figure>
+                <div class="item-01">
+                    <h5>Read Dead Redemption</h5>
+                    <h6>Jogo de Aventura</h6>
+                    <div class="price">
+                        <strong>
+                            <h5>R$ 49.99</h5>
+                        </strong>
+                        <h5 class="risco ml-2">R$ 149.99</h5>
+                    </div>
+                </div>
+                <div class="item-02">
+                    <button class="btn-favorite">
+                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            id="favorite-btn">
+                            <path
+                                d="M10 18.35L8.55 17.03C3.4 12.36 0 9.28 0 5.5C0 2.42 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.09C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.42 20 5.5C20 9.28 16.6 12.36 11.45 17.04L10 18.35Z"
+                                fill="#FAF8F5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="game-item ml-2">
+                <figure class="bg-game"><img src="img/outerworld.png" alt="Outer World Arte"></figure>
+                <div class="item-01">
+                    <h5>The Outer Worlds</h5>
+                    <h6>Jogo de RPG</h6>
+                    <div class="price">
+                        <strong>
+                            <h5>R$ 49.99</h5>
+                        </strong>
+                        <h5 class="risco ml-2">R$ 149.99</h5>
+                    </div>
+                </div>
+                <div class="item-02">
+                    <button class="btn-favorite mr-3">
+                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            id="favorite-btn">
+                            <path
+                                d="M10 18.35L8.55 17.03C3.4 12.36 0 9.28 0 5.5C0 2.42 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.09C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.42 20 5.5C20 9.28 16.6 12.36 11.45 17.04L10 18.35Z"
+                                fill="#FAF8F5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="game-shop">
+            <figure><img src="img/fortnite-bg.png" alt="Fortnite Arte" class="background-img"></figure>
+            <div class="item-01">
+                <h2 class="mb-2"> <strong>Compre seus jogos</strong> digitais e físicos </h2>
+                <h5 class="mb-6">Efetue suas compras na Switch Games. Aqui temos jogos para todas as
+                    plataformas
+                    digitais, computadores, notebooks, Playstation, Xbox, cards de jogos mobile/online. Todas as
+                    categorias que você imaginar, ficou curioso? Explore a loja.</h5>
+                <button class="btn-secondary">
+                    <span><a href="#categorias">Explorar</a></span>
+                </button>
+            </div>
+        </section>
