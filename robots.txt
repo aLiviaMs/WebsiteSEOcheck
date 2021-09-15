@@ -1,7 +1,7 @@
+Sitemap: https://aliviams.github.io/WebsiteSEOcheck/sitemap.xml
+
 User-agent: Googlebot
 Disallow: /nogooglebot/
 
 User-agent: *
 Allow: /
-
-Sitemap: https://aliviams.github.io/WebsiteSEOcheck/sitemap.xml
