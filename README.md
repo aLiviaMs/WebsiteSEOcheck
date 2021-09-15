@@ -2,7 +2,7 @@
 
 ## 📝 Leia, por favor.
 <p>
-    Arquivos muito importantes para as técnicas de Search Engine Optimization como: robots.txt e sitemap.xml foram criados. Ademais toda a criação de conteúdo é otimizado com palavras-chave de alto volume de busca com todas as suas devidas Tags On-Page, revisamentos de indexação, estrutura hierárquica e etc. Procurei desenvolver o máximo possível em relação as técnicas SEO em vez de me aprofundar com features extras em JS (Embora tenha escrito 2 códigos no projeto com o mesmo).
+    Arquivos muito importantes para as técnicas de Search Engine Optimization como: robots.txt e sitemap.xml foram criados. Ademais toda a criação de conteúdo é otimizado com palavras-chave de alto volume de busca com todas as suas devidas Tags On-Page, revisamentos de indexação, estrutura hierárquica e etc. Procurei desenvolver o máximo possível em relação as técnicas SEO em vez de me aprofundar com features extras em JS (Embora tenha escrito 2 códigos no projeto com o mesmo). Utilizo também o pré-processador SASS e testes extras com o W3C validation service para HTML e CSS :)
     <br>
     Quantidade nem sempre é sinônimo de qualidade 👌😎
 </p>
