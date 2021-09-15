@@ -104,21 +104,20 @@ $mob-break2: 325px;
         font-size: 12px;
     }
 
+    .input-field {
+        margin-top: 1rem !important;
 
-    .container-title {
-        text-align: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        
-        h3 {
-            font-size: 18px;
-            line-height: 41px;
-            letter-spacing: 0.2em;
+
+        input {
+            font-size: 16px !important;
+            padding: 10px !important;
         }
 
-        h5 {
-            width: 50%;
-            font-size: 12px;
+        button {
+            font-size: 16px !important;
+            padding: 10px !important;
+
+            width: 50% !important;
         }
     }
 
@@ -134,19 +133,6 @@ $mob-break2: 325px;
 
     }
 
-    .input-group {
-        margin-bottom: 12px;
-        padding: 16px 6px;
-    
-        width: 100%;
-    
-        background: $gray-5;
-        border-radius: 4px;
-    
-        box-sizing: content-box;
-    
-    }
-   
     .btn-secondary {    
         padding: 24px 24px;
 

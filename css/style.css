@@ -776,7 +776,6 @@ body {
   width: 80%;
   display: inline-flexbox;
   position: relative;
-  overflow: hidden;
 }
 
 .container img {
@@ -1434,23 +1433,17 @@ body {
     padding: 10px 16px;
     font-size: 12px;
   }
-  .container-title {
-    text-align: center;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+  .input-field {
+    margin-top: 1rem !important;
   }
-  .container-title h3 {
-    font-size: 18px;
-    line-height: 41px;
-    letter-spacing: 0.2em;
+  .input-field input {
+    font-size: 16px !important;
+    padding: 10px !important;
   }
-  .container-title h5 {
-    width: 50%;
-    font-size: 12px;
+  .input-field button {
+    font-size: 16px !important;
+    padding: 10px !important;
+    width: 50% !important;
   }
   .container {
     -webkit-box-orient: horizontal;
@@ -1463,15 +1456,6 @@ body {
   .item-right {
     margin-top: 20%;
     margin-right: 20%;
-  }
-  .input-group {
-    margin-bottom: 12px;
-    padding: 16px 6px;
-    width: 100%;
-    background: #434343;
-    border-radius: 4px;
-    -webkit-box-sizing: content-box;
-            box-sizing: content-box;
   }
   .btn-secondary {
     padding: 24px 24px;
