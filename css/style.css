@@ -824,6 +824,18 @@ body {
   margin-right: 24px;
 }
 
+.container .item-center {
+  padding-top: 2rem;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 0;
+}
+
 .container .item-right {
   width: 60%;
   -webkit-box-orient: vertical;
@@ -837,6 +849,67 @@ body {
 
 .container:last-child {
   margin-bottom: 6rem;
+}
+
+.container #bg-news {
+  width: 100%;
+  height: 15rem;
+  background: linear-gradient(215.11deg, rgba(34, 22, 199, 0.1) 11.63%, #6158DA 81.82%);
+  border-radius: 40px;
+}
+
+.container .input-field {
+  margin-top: 4rem;
+}
+
+.container .input-field input {
+  position: static;
+  border: 0;
+  padding: 16px;
+  border-radius: 13px;
+  background-color: #303030;
+  text-transform: uppercase;
+  outline: none;
+  font-size: 0.9rem;
+  color: #D5D3D0;
+  width: 50%;
+}
+
+.container .input-field input::-webkit-input-placeholder {
+  color: #D5D3D0;
+}
+
+.container .input-field input:-ms-input-placeholder {
+  color: #D5D3D0;
+}
+
+.container .input-field input::-ms-input-placeholder {
+  color: #D5D3D0;
+}
+
+.container .input-field input::placeholder {
+  color: #D5D3D0;
+}
+
+.container .input-field button {
+  border: 0;
+  padding: 16px;
+  border-radius: 13px;
+  background-color: #28BB49;
+  text-transform: uppercase;
+  outline: none;
+  font-size: 0.9rem;
+  color: #D5D3D0;
+  width: 20%;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.container .input-field button:hover {
+  background: #32D957;
+  -webkit-box-shadow: 0px 14px 85px rgba(245, 227, 146, 0.06), 0px 5.11023px 31.0264px rgba(245, 243, 124, 0.041), 0px 2.48092px 15.0627px rgba(240, 204, 42, 0.033), 0px 1.21619px 7.38404px rgba(241, 239, 120, 0.027), 0px 0.48089px 2.91966px rgba(242, 255, 168, 0.019);
+          box-shadow: 0px 14px 85px rgba(245, 227, 146, 0.06), 0px 5.11023px 31.0264px rgba(245, 243, 124, 0.041), 0px 2.48092px 15.0627px rgba(240, 204, 42, 0.033), 0px 1.21619px 7.38404px rgba(241, 239, 120, 0.027), 0px 0.48089px 2.91966px rgba(242, 255, 168, 0.019);
 }
 
 .btn {
@@ -938,6 +1011,7 @@ body {
           filter: brightness(0.2);
   width: 100%;
   z-index: -1;
+  border-radius: 50px;
 }
 
 .category-bg:hover img {
