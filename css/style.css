@@ -804,11 +804,11 @@ body {
   line-height: 16px;
 }
 
-.container .item-left #subtitle {
+.container .item-left .subtitle {
   color: #676767;
 }
 
-.container .item-left #price {
+.container .item-left .price {
   margin-top: 5rem;
   margin-bottom: 4rem;
   display: -webkit-box;
@@ -819,7 +819,7 @@ body {
           align-items: center;
 }
 
-.container .item-left #price p {
+.container .item-left .price p {
   font-size: 36px;
   margin-right: 24px;
 }
@@ -949,6 +949,10 @@ body {
   color: #BF63F7;
 }
 
+.category-bg h3 {
+  font-size: 18px;
+}
+
 .text-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -956,7 +960,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  top: -7rem;
+  top: -9rem;
   position: relative;
   text-transform: uppercase;
 }
@@ -1289,7 +1293,7 @@ body {
     width: 80%;
     text-align: center;
   }
-  .item-left #price {
+  .item-left .price {
     margin-bottom: 2rem !important;
   }
   .item-right {
@@ -1314,17 +1318,17 @@ body {
   h4 {
     font-size: 18px;
   }
-  #price {
+  .price {
     margin-top: 3rem !important;
     margin-bottom: 1rem !important;
   }
-  #description {
+  .description {
     display: none;
   }
 }
 
 @media (max-width: 720px) {
-  #homepage {
+  .homepage {
     display: none;
   }
 }
@@ -1337,19 +1341,19 @@ body {
     text-align: center;
     font-size: 12px;
   }
-  .item-left #subtitle {
+  .item-left .subtitle {
     display: none;
   }
   .item-left h4 {
     text-align: center;
     font-size: 14px;
   }
-  .item-left #price {
+  .item-left .price {
     margin-left: 25px;
     margin-top: 2rem !important;
     margin-bottom: 1rem !important;
   }
-  .item-left #price p {
+  .item-left .price p {
     font-size: 14px !important;
   }
   .btn {
@@ -1402,14 +1406,14 @@ body {
 }
 
 @media (max-width: 325px) {
-  .item-left #subtitle {
+  .item-left .subtitle {
     display: none;
   }
   .item-left h4 {
     text-align: center;
     font-size: 14px;
   }
-  .item-left #price {
+  .item-left .price {
     margin-left: 25px;
     margin-top: 0.5rem !important;
     margin-bottom: 1rem !important;

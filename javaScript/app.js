@@ -10,6 +10,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 y: 0, opacity: 1, ease: Back.easeOut.config(1.7)
             }, '-=0.5')
 
+        .fromTo('.title', 0.7,
+            { y: 50, opacity: 0, },
+            {
+                y: 0, opacity: 1, ease: Back.easeOut.config(1.7)
+            }, '-=0.5')
         .fromTo('.menu-left', 0.7,
             { y: 50, opacity: 0, },
             {
@@ -22,6 +27,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 y: 0, opacity: 1, ease: Back.easeOut.config(1.7)
             }, '-=0.5')
         .fromTo('.container', 1.7,
+            { y: 50, opacity: 0, },
+            {
+                y: 0, opacity: 1, ease: Back.easeOut.config(1.7)
+            }, '-=0.5')
+        .fromTo('.categories', 1.7,
             { y: 50, opacity: 0, },
             {
                 y: 0, opacity: 1, ease: Back.easeOut.config(1.7)

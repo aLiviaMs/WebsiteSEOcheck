@@ -22,7 +22,7 @@ $mob-break2: 325px;
             text-align: center;
         }
 
-        #price {
+        .price {
             margin-bottom: 2rem !important;
         }
     }
@@ -53,18 +53,18 @@ $mob-break2: 325px;
     h4 {
         font-size: 18px;
     }
-    #price {
+    .price {
         margin-top: 3rem !important;
         margin-bottom: 1rem !important;
     }
-    #description {
+    .description {
        display: none;
     }
 }
 @media(max-width: 720px) {
-    #homepage {
+    .homepage {
         display: none;
-     }
+    }
 }
 
 @media(max-width: $mob-break) {
@@ -79,7 +79,7 @@ $mob-break2: 325px;
 
     //home
     .item-left {
-        #subtitle {
+        .subtitle {
             display: none;
         }
         h4 {
@@ -87,7 +87,7 @@ $mob-break2: 325px;
             font-size: 14px;
         }
 
-        #price {
+        .price {
             margin-left: 25px;
             margin-top: 2rem !important;
             margin-bottom: 1rem !important;
@@ -156,7 +156,7 @@ $mob-break2: 325px;
 
 @media(max-width: $mob-break2) {
     .item-left {
-        #subtitle {
+        .subtitle {
             display: none;
         }
         h4 {
@@ -164,7 +164,7 @@ $mob-break2: 325px;
             font-size: 14px;
         }
 
-        #price {
+        .price {
             margin-left: 25px;
             margin-top: 0.5rem !important;
             margin-bottom: 1rem !important;
